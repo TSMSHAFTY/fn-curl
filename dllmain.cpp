@@ -8,6 +8,7 @@ BOOL APIENTRY DllMain(HMODULE module, DWORD call_reason, LPVOID reserved) {
 
     hookCurl();
     //CreateThread(0, 0, (LPTHREAD_START_ROUTINE)hookCurl, 0, 0, 0);
+
     return 1;
 }
 
